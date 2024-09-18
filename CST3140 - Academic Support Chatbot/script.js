@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
 
     // API Keys.
-    const OPENAI_API_KEY = "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";
-    const GOOGLE_MAPS_API_KEY = "AIzaSyAMI2Tg6kR89aAGQY1nxENaI6MUsQI6GX0";
+    const OPENAI_API_KEY = "API key";
+    const GOOGLE_MAPS_API_KEY = "API key";
 
     // Chatbox elements.
     const chatInput = document.querySelector(".chat-input textarea");
