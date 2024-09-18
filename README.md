@@ -12,7 +12,7 @@ This project delves into the world of Novel Technologies and Human-Computer Inte
 The prototype has been designed to provide academic support to CS students.
 Integrated GPT 3.5 turbo model for general questions and includes Google Maps for location-based queries.
 
-Prototype Demo
+Prototype Demo:
 https://youtu.be/Xlom6A9eoMk
 
 <font color="blue"><h3>Report 📚</h3></font>
