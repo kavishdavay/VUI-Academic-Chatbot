@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Academic Support System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+
+    
+    <div class="suggestion-panel">
+        <header>
+            <h2 class="suggestion-header">Suggestions</h2>
+        </header>
+        <div class="commands-container"></div>
+    </div>
+
+    <div class="calendar-panel">
+        <header>
+            <h2 class="calendar-header">Your Calendar</h2>
+        </header>
+
+        <div id="calendar"></div>
+    </div>
+
+    <div class="chatbox">
+        <header>
+            <h2 class="chat-header">Academic Support</h2>
+            <button id="help_btn" class="material-symbols-outlined">help</button>
+        </header>
+
+        <ul class="chat-area">
+            <li class="chat system">
+                <span class="material-symbols-outlined">smart_toy</span>
+
+                <div class="message">
+                    <p>Hello! <br> How can I assist you?</p>
+                </div>
+            </li>
+
+        </ul>
+
+        <div class="chat-input">
+            <textarea placeholder="Type your query..." required></textarea>
+            <button id="send_btn" class="material-symbols-outlined">send</button>
+            <div class="speak-btn-wrapper">
+                <button id="speak_btn" class="material-symbols-outlined">mic</button>
+            </div>
+        </div>
+
+    </div>
+
+    <audio id="startSpeakSound" src="/media/start-speak.mp3" preload="auto"></audio>
+    <audio id="stopSpeakSound" src="/media/stop-speak.mp3" preload="auto"></audio>
+
+  </body>
+</html>
